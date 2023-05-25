@@ -23,7 +23,7 @@ const validations = Yup.object().shape({
 })
 
 
-export default function Formulario({ route, navigation }) {
+export default function Formulario({ route, /*navigation*/ }) {
     const { status } = route.params;
     const { alumno, lista, setAlumno, setLista } = useContext(AlumnosContext);
 

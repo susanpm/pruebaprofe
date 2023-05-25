@@ -8,7 +8,7 @@ export default function App() {
   return (
     <AlumnosProvider>
       <NavigationContainer>
-        <StackNavigator1/>
+      <DrawerNavigator1/>
       </NavigationContainer>
     </AlumnosProvider>
   );
